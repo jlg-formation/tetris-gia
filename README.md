@@ -1,25 +1,23 @@
 # Tetris Bisounours
 
+**[Jouer en ligne](https://jlg-formation.github.io/tetris-gia/)**
+
 Un jeu de Tetris solo, jouable directement dans le navigateur. Le projet est écrit en HTML, CSS et JavaScript vanilla, sans framework ni dépendance npm. Il sert de support d'apprentissage du développement de jeu vidéo.
 
-## Lancer le jeu
-
-Aucune installation n'est nécessaire. Ouvrez simplement le fichier [index.html](index.html) dans votre navigateur.
-
-La police Fredoka est chargée depuis Google Fonts. Sans connexion internet, le jeu reste jouable avec une police de repli.
+Pour le jouer en local, ouvrez simplement [index.html](index.html) dans votre navigateur.
 
 ## Commandes
 
-| Touche | Action |
-| --- | --- |
-| Flèche gauche / droite | Déplacer la pièce |
-| Flèche haut / `X` | Tourner la pièce à droite |
-| `Z` | Tourner la pièce à gauche |
-| Flèche bas | Descendre d'une case |
-| Espace | Chute immédiate |
-| `C` | Mettre la pièce de côté (hold) |
-| `P` | Pause / reprise |
-| `R` | Recommencer une partie |
+| Touche                 | Action                         |
+| ---------------------- | ------------------------------ |
+| Flèche gauche / droite | Déplacer la pièce              |
+| Flèche haut / `X`      | Tourner la pièce à droite      |
+| `Z`                    | Tourner la pièce à gauche      |
+| Flèche bas             | Descendre d'une case           |
+| Espace                 | Chute immédiate                |
+| `C`                    | Mettre la pièce de côté (hold) |
+| `P`                    | Pause / reprise                |
+| `R`                    | Recommencer une partie         |
 
 ## Fonctionnalités
 
