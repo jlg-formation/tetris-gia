@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tetris Bisounours</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="stars" aria-hidden="true"></div>
+    <main class="game">
+      <aside class="panel">
+        <h2>Hold</h2>
+        <canvas id="hold" width="120" height="120"></canvas>
+      </aside>
+
+      <section class="board-wrap">
+        <canvas id="board" width="300" height="600"></canvas>
+        <div id="overlay" class="overlay hidden">
+          <p id="overlay-text"></p>
+        </div>
+      </section>
+
+      <aside class="panel">
+        <h2>Suivant</h2>
+        <canvas id="next" width="120" height="360"></canvas>
+        <div class="stat">Score <span id="score">0</span></div>
+        <div class="stat">Lignes <span id="lines">0</span></div>
+        <div class="stat">Niveau <span id="level">1</span></div>
+        <p class="help">
+          Flèches : déplacer<br />
+          ↑ / X : tourner · Z : tourner à gauche<br />
+          Espace : chute · C : hold<br />
+          P : pause · R : recommencer
+        </p>
+      </aside>
+    </main>
+
+    <script src="src/logic.js"></script>
+    <script src="src/render.js"></script>
+    <script src="src/main.js"></script>
+  </body>
+</html>
