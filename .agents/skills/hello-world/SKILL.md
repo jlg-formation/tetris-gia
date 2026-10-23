@@ -1,6 +1,7 @@
 ---
 name: hello-world
 description: affiche un message "hello world". USE WHEN l'utilisateur dit "hello"
+disable-model-invocation: true
 ---
 
 Bon, alors, quand ce skill est déclenché, en général, c'est parce que l'utilisateur a dit « hello ». Voici ce que je veux que tu fasses :
